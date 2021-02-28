@@ -1,0 +1,45 @@
+body {
+    padding: 100px 100px
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(49, 49, 99);
+    color: white;
+    text-align: center;
+    justify-content: left;
+}
+
+.fa {
+    color: black !important;
+    padding: 5px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+
+}
+
+.myText {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.border {
+    border: black 1px solid;
+    padding: 5px;
+    justify-content: center;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      padding: 25px 25px;
+    }
+  }
